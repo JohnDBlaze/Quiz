@@ -103,3 +103,37 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+button {
+  background-color: #238117;
+  /* background: linear-gradient(90.04deg, rgb(173, 230, 182) 0.03%, #238117 99.96%); */
+  border-radius: 9px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 42px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: block;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.mt-10 {
+  margin-top: 250px;
+}

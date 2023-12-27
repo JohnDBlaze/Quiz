@@ -1,86 +1,68 @@
 export const Question = {
-  topic: "Javascript",
+  topic: "History",
   level: "Beginner",
   totalQuestions: 10,
   perQuestionScore: 5,
   questions: [
     {
-      question:
-        "Which function is used to serialize an object into a JSON string in Javascript?",
-      choices: ["stringify()", "parse()", "convert()", "None of the above"],
+      question: "Who was the first President of the United States?",
+      choices: ["George Washington", "Thomas Jefferson", "John Adams", "James Madison"],
       type: "MCQs",
-      correctAnswer: "stringify()",
+      correctAnswer: "George Washington",
     },
     {
-      question:
-        "Which of the following keywords is used to define a variable in Javascript?",
-      choices: ["var", "let", "var and let", "None of the above"],
+      question: "In which year did World War I begin?",
+      choices: ["1914", "1917", "1919", "1921"],
       type: "MCQs",
-      correctAnswer: "var and let",
+      correctAnswer: "1914",
     },
     {
-      question:
-        "Which of the following methods can be used to display data in some form using Javascript?",
-      choices: [
-        "document.write()",
-        "console.log()",
-        "window.alert",
-        "All of the above",
-      ],
+      question: "Which ancient civilization is known for the construction of the Great Wall?",
+      choices: ["Roman Empire", "Greek Civilization", "Egyptian Civilization", "Chinese Civilization"],
       type: "MCQs",
-      correctAnswer: "All of the above",
+      correctAnswer: "Chinese Civilization",
     },
     {
-      question: "How can a datatype be declared to be a constant type?",
-      choices: ["const", "var", "let", "constant"],
+      question: "Who was the leader of the Civil Rights Movement in the 1960s?",
+      choices: ["Martin Luther King Jr.", "Malcolm X", "Rosa Parks", "John F. Kennedy"],
       type: "MCQs",
-      correctAnswer: "const",
+      correctAnswer: "Martin Luther King Jr.",
     },
     {
-      question:
-        "Which function is used to serialize an object into a JSON string in Javascript?",
-      choices: ["stringify()", "parse()", "convert()", "None of the above"],
+      question: "Which historical event is known as the 'Boston Tea Party'?",
+      choices: ["American Revolution", "French Revolution", "Russian Revolution", "Boston Massacre"],
       type: "MCQs",
-      correctAnswer: "stringify()",
+      correctAnswer: "American Revolution",
     },
     {
-      question:
-        "Which of the following keywords is used to define a variable in Javascript?",
-      choices: ["var", "let", "var and let", "None of the above"],
+      question: "Who was the first woman to win a Nobel Prize?",
+      choices: ["Marie Curie", "Rosalind Franklin", "Florence Nightingale", "Amelia Earhart"],
       type: "MCQs",
-      correctAnswer: "var and let",
+      correctAnswer: "Marie Curie",
     },
     {
-      question:
-        "Which of the following methods can be used to display data in some form using Javascript?",
-      choices: [
-        "document.write()",
-        "console.log()",
-        "window.alert",
-        "All of the above",
-      ],
+      question: "In which year did the Berlin Wall fall, marking the end of the Cold War?",
+      choices: ["1985", "1989", "1991", "1995"],
       type: "MCQs",
-      correctAnswer: "All of the above",
+      correctAnswer: "1989",
     },
     {
-      question: "How can a datatype be declared to be a constant type?",
-      choices: ["const", "var", "let", "constant"],
+      question: "Which explorer is credited with circumnavigating the globe?",
+      choices: ["Christopher Columbus", "Ferdinand Magellan", "Marco Polo", "Vasco da Gama"],
       type: "MCQs",
-      correctAnswer: "const",
+      correctAnswer: "Ferdinand Magellan",
     },
     {
-      question:
-        "Which function is used to serialize an object into a JSON string in Javascript?",
-      choices: ["stringify()", "parse()", "convert()", "None of the above"],
+      question: "What was the main cause of the Great Depression in the 1930s?",
+      choices: ["Stock Market Crash", "World War II", "Prohibition", "Technological Advances"],
       type: "MCQs",
-      correctAnswer: "stringify()",
+      correctAnswer: "Stock Market Crash",
     },
     {
-      question:
-        "Which of the following keywords is used to define a variable in Javascript?",
-      choices: ["var", "let", "var and let", "None of the above"],
+      question: "Who was the famous queen of ancient Egypt known for her beauty and intelligence?",
+      choices: ["Cleopatra", "Nefertiti", "Hatshepsut", "Isis"],
       type: "MCQs",
-      correctAnswer: "var and let",
+      correctAnswer: "Cleopatra",
     },
   ],
 };
